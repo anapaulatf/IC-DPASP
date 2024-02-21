@@ -7522,7 +7522,7 @@ O trabalho desenvolvido aqui faz parte da Iniciação Científica da aluna Ana P
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7536,20 +7536,6 @@ O trabalho desenvolvido aqui faz parte da Iniciação Científica da aluna Ana P
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>The mpasp extension is already loaded. To reload it, use:
-  %reload_ext mpasp
-</pre>
-</div>
-</div>
-</div>
-</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7557,7 +7543,9 @@ O trabalho desenvolvido aqui faz parte da Iniciação Científica da aluna Ana P
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<blockquote>
 <p><a href="#ref">(Morgado, 1991)</a> Três moedas são jogadas simultaneamente. Qual é a probabilidade de obter 2 caras? Qual é a probabilidade de obter pelo menos 2 caras?</p>
+</blockquote>
 <p>Para exatamente duas caras:</p>
 </div>
 </div>
@@ -7593,17 +7581,17 @@ duascaras :- cara1, cara3, not cara2.
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>Querying:                                                               0h00m00s
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>
+ℙ(duascaras) = 0.375000
+---
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>
-ℙ(duascaras) = 0.375000
----
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>Querying:                                                               0h00m00s
 </pre>
 </div>
 </div>
@@ -7685,7 +7673,9 @@ min2caras :- cara1, cara2, cara3.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<blockquote>
 <p><a href="#ref">(Morgado, 1991)</a> Dois dados são jogados simultaneamente. Calcular a probabilidade de que a soma dos números mostrados nas faces de cima seja 7</p>
+</blockquote>
 </div>
 </div>
 </div>
@@ -7718,17 +7708,17 @@ soma(S) :- d1(A), d2(B), S = A + B.
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>
-ℙ(soma(7)) = 0.166667
----
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>Querying:                                                               0h00m00s
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>Querying:                                                               0h00m00s
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>
+ℙ(soma(7)) = 0.166667
+---
 </pre>
 </div>
 </div>
@@ -7747,7 +7737,9 @@ soma(S) :- d1(A), d2(B), S = A + B.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<blockquote>
 <p><a href="#ref">(Morgado, 1991)</a> Dois dados são jogados simultaneamente. Calcular a probabilidade de que o máximo seja maior ou igual a 3.</p>
+</blockquote>
 </div>
 </div>
 </div>
@@ -7811,7 +7803,9 @@ maximo(X) :- d1(A), d2(B), X = B &gt; A.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<blockquote>
 <p><a href="#ref">(Morgado, 1991)</a> Suponhamos que de n objetos escolhemos r ao acaso com reposição. Qual é a probabilidade de que nenhum objeto seja escolhido mais de uma vez?</p>
+</blockquote>
 <p>Vamos supor que temos 5 objetos e escolhemos 2 com reposição.</p>
 </div>
 </div>
@@ -7874,7 +7868,9 @@ escolha :- obj1(A), obj2(B), A!=B.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<blockquote>
 <p><strong>Paradoxo do aniversário</strong>: Em uma sala com <em>n</em> pessoas, qual a probabilidade de que ao menos duas pessoas façam aniversário no mesmo dia?</p>
+</blockquote>
 <p>De modo simplificado, para reduzir o número de possibilidades: Suponha um mês com 10 dias e um ano com 2 meses. Qual a probabilidade de duas pessoas fazerem aniversário no mesmo dia?</p>
 </div>
 </div>
@@ -8000,7 +7996,9 @@ coincide :- pessoa1(X,Y), pessoa2(X,Y).
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<blockquote>
 <p><a href="#ref">(Morgado, 1991)</a> Dez alunos podem decidir fazer parte de uma comissão. Qual a probabilidade de que seja feita uma comissão com 2 alunos?</p>
+</blockquote>
 </div>
 </div>
 </div>
@@ -8032,6 +8030,12 @@ comissao(2) :- #count{X:a(X)} = 2.
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>Querying: -</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>
 ℙ(comissao(2)) = 0.043945
@@ -8061,7 +8065,9 @@ comissao(2) :- #count{X:a(X)} = 2.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<blockquote>
 <p><a href="#ref">(Morgado, 1991)</a> Um grupo de pessoas está classificado da seguinte forma:</p>
+</blockquote>
 <table>
 <thead>
 <tr>
@@ -8153,7 +8159,9 @@ pessoa(X) :- lingua(Y,X).
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<blockquote>
 <p>Simular uma moeda honesta com 2 moedas enviesadas.</p>
+</blockquote>
 </div>
 </div>
 </div>
@@ -8220,7 +8228,9 @@ diferente :- cara2, coroa1.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<blockquote>
 <p>Simular um dado de 6 lados equilibrado com 2 moedas.</p>
+</blockquote>
 </div>
 </div>
 </div>
@@ -8306,7 +8316,9 @@ lado6:- cara1, coroa2, coroa3.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<blockquote>
 <p><a href="#ref">(Morgado, 1991)</a> Consideremos dois dados: Um deles equilibrado e outro viciado com P(1) = 0.5 e P(2), ..., P(6) = 0.1. Escolhe-se um dos dados ao acaso e se efetuam dois lançamentos, obtendo-se dois uns. Qual a probabilidade de que o dado escolhido tenha sido o viciado?</p>
+</blockquote>
 </div>
 </div>
 </div>
@@ -8344,6 +8356,12 @@ doisuns :- dado(viciado), dv1(1), dv2(1).
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>Querying: \</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>
 ℙ(dado(viciado) | doisuns) = 0.900000
@@ -8373,7 +8391,9 @@ doisuns :- dado(viciado), dv1(1), dv2(1).
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<blockquote>
 <p><a href="#ref">(Morgado, 1991)</a> Marina quer enviar uma carta à Verônica. A probabilidade de que Marina escreva a carta é de 8/10. A probabilidade de que o correio não a perca é de 9/10. A probabilidade de que o carteiro a entregue é de 9/10. Dado que Verônica não recebeu a carta, qual é a probabilidade condicional de que Marina não a tenha escrito?</p>
+</blockquote>
 </div>
 </div>
 </div>
@@ -8433,17 +8453,7 @@ receber :- escrever, nao_perder, entregar.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Bibliografia">Bibliografia<a class="anchor-link" href="#Bibliografia">¶</a></h1><p><strong>de Oliveira Morgado, Augusto César.</strong> "Análise Combinatória e Probabilidade." <em>Sociedade Brasileira de Matemática, Rio de Janeiro (1991).</em> <a name="ref"></a></p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Bibliografia-">Bibliografia <a name="ref"></a><a class="anchor-link" href="#Bibliografia-">¶</a></h1><p><strong>de Oliveira Morgado, Augusto César.</strong> "Análise Combinatória e Probabilidade." <em>Sociedade Brasileira de Matemática, Rio de Janeiro (1991).</em></p>
 </div>
 </div>
 </div>
