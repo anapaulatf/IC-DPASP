@@ -1,0 +1,27 @@
+Num de epochs: 1, Accuracy: 0.9276,  Tempo: 108.43040680885315
+Num de epochs: 2, Accuracy: 0.962,  Tempo: 116.36742949485779 
+Num de epochs: 3, Accuracy: 0.9702,  Tempo: 124.8746600151062 
+Num de epochs: 4, Accuracy: 0.9626,  Tempo: 133.41295099258423 
+Num de epochs: 5, Accuracy: 0.9694,  Tempo: 142.12473058700562 
+Num de epochs: 6, Accuracy: 0.9726,  Tempo: 152.38063979148865 
+Num de epochs: 7, Accuracy: 0.9736,  Tempo: 159.65646290779114 
+Num de epochs: 8, Accuracy: 0.974,  Tempo: 167.794780254364 
+Num de epochs: 9, Accuracy: 0.9766,  Tempo: 175.5815143585205 
+Num de epochs: 10, Accuracy: 0.9742,  Tempo: 184.35436153411865 
+Num de epochs: 11, Accuracy: 0.9756,  Tempo: 193.48382949829102 
+Num de epochs: 12, Accuracy: 0.9736,  Tempo: 201.81868433952332 
+Num de epochs: 13, Accuracy: 0.9784,  Tempo: 210.1412582397461
+
+LL=-0.28234  
+LL=-0.13804
+LL=-0.11061
+LL=-0.10938
+LL=-0.01669
+LL=-0.01126
+LL=-0.01338
+LL=-0.01488
+LL=-0.01532
+LL=-0.02806
+LL=-0.00201
+LL=-0.00959
+LL=-0.00292

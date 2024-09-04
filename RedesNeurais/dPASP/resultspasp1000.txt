@@ -1,0 +1,29 @@
+Num de epochs: 1, Accuracy: 0.3366,  Tempo: 105.94214653968811 
+Num de epochs: 2, Accuracy: 0.7108,  Tempo: 107.54048371315002 
+Num de epochs: 3, Accuracy: 0.8596,  Tempo: 110.23587846755981 
+Num de epochs: 4, Accuracy: 0.8852,  Tempo: 112.633544921875 
+Num de epochs: 5, Accuracy: 0.9214,  Tempo: 114.51209354400635 
+Num de epochs: 6, Accuracy: 0.9226,  Tempo: 118.3070878982544 
+Num de epochs: 7, Accuracy: 0.942,  Tempo: 119.24874830245972 
+Num de epochs: 8, Accuracy: 0.9412,  Tempo: 121.46186542510986 
+Num de epochs: 9, Accuracy: 0.954,  Tempo: 126.23609495162964 
+Num de epochs: 10, Accuracy: 0.9514,  Tempo: 126.73898005485535 
+Num de epochs: 11, Accuracy: 0.9594,  Tempo: 129.35778188705444 
+Num de epochs: 12, Accuracy: 0.961,  Tempo: 131.29737043380737 
+Num de epochs: 13, Accuracy: 0.961,  Tempo: 133.93502163887024
+
+# Versão 2 
+Num de epochs: 1, Accuracy: 0.3518,  Tempo: 117.49629354476929 
+Num de epochs: 2, Accuracy: 0.7344,  Tempo: 107.09230732917786 
+Num de epochs: 3, Accuracy: 0.844,  Tempo: 108.16906380653381 
+Num de epochs: 4, Accuracy: 0.8994,  Tempo: 111.40568137168884 
+Num de epochs: 5, Accuracy: 0.9062,  Tempo: 114.58693647384644 
+Num de epochs: 6, Accuracy: 0.9138,  Tempo: 118.28401160240173 
+Num de epochs: 7, Accuracy: 0.9228,  Tempo: 119.58029818534851 
+Num de epochs: 8, Accuracy: 0.9432,  Tempo: 120.00277924537659 
+Num de epochs: 9, Accuracy: 0.9456,  Tempo: 124.01174116134644 
+Num de epochs: 10, Accuracy: 0.9542,  Tempo: 125.0047402381897 
+Num de epochs: 11, Accuracy: 0.9546,  Tempo: 1150.686105966568 
+Num de epochs: 12, Accuracy: 0.9622,  Tempo: 131.97331261634827 
+Num de epochs: 13, Accuracy: 0.9618,  Tempo: 132.08488202095032 
+
