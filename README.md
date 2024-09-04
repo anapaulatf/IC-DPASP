@@ -3,4 +3,4 @@ Este repositório contém os exercícios e códigos feitos durante a Iniciação
 
 Os exercícios podem ser lidos através do [Jupyter Notebook](exercicios.ipynb) ou através do [link](https://htmlpreview.github.io/?https://github.com/anapaulatf/IC-DPASP/blob/main/exercicios.html)
 
-Em /RedesNeurais, constam os arquivos da segunda parte da Iniciação Científica.
+Em [RedesNeurais](https://github.com/anapaulatf/IC-DPASP/tree/main/RedesNeurais), constam os arquivos da segunda parte da Iniciação Científica.
